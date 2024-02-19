@@ -13,7 +13,8 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alea12.expocngwidgetexample"
     },
     "android": {
       "adaptiveIcon": {
@@ -27,8 +28,26 @@
     "plugins": [
       [
         "react-native-widget-extension",
-        { "frequentUpdates": true, "widgetsFolder": "widgets/ios" }
+        {
+          "widgetsFolder": "widgets/ios"
+        }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "build": {
+          "experimental": {
+            "ios": {
+              "appExtensions": [
+                {
+                  "targetName": "expocngwidgetexampleWidgets",
+                  "bundleIdentifier": "expocngwidgetexampleWidgets"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
   }
 }

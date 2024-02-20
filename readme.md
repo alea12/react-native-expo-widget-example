@@ -1,5 +1,7 @@
 # React Native + Expo CNG (Managed Workflow) + Swift iOS Widget Boilerplate
 
+<img src="https://github.com/alea12/react-native-expo-widget-example/blob/main/assets/sample.png?raw=true" width="400">
+
 This boilerplate is aimed to demonstrate a bare minimum example of how to implement iOS Widgets with React Native on Expo CNG (Managed Workflow). Notice that `ios` directory is not required. Based on [bndkt/react\-native\-widget\-extension](https://github.com/bndkt/react-native-widget-extension).
 
 ## Requirements
